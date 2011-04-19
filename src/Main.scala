@@ -2,8 +2,9 @@ package com.vbedegi.projecteuler
 
 object Main {
   def main(args: Array[String]) = {
-    val p4 = new Problem4
-    println(p4.calculate)
+
+    val p5 = new Problem5
+    p5.doit
 
     //archive
   }
@@ -17,5 +18,8 @@ object Main {
 
     val p3 = new Problem3
     p3.printFactors
+
+    val p4 = new Problem4
+    println(p4.calculate)
   }
 }
