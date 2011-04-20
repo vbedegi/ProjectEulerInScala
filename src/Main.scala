@@ -4,7 +4,7 @@ object Main {
   def main(args: Array[String]) = {
 
     val p5 = new Problem5
-    p5.doit
+    println(p5 calculate)
 
     //archive
   }
